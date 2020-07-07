@@ -36,6 +36,9 @@ npm start
 
 ### What it looks like:
 
+![guardianbanner](guardian1.png)
+![guardiannews](guardian2.png)
+
 
 
 
