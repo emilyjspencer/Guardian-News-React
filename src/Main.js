@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-
 import './App.css';
 
 
@@ -26,9 +25,10 @@ const Main = ()  => {
       
   return (
     <div className="App">
-        
       <br />
-      <h1>Guardian News</h1>
+      <h1>The latest news</h1>
+      <br />
+      <br />
       <ul>
         {stories.map(story => (
         <li key={story.id}>
@@ -40,15 +40,11 @@ const Main = ()  => {
           <br />
           <br />
         </li>
-      
         ))}
         </ul>
-   
       </div>
-
-    
-  );
-        }
+     );
+    }
   
         
 export default Main;
