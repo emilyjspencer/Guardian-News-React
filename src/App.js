@@ -4,6 +4,7 @@ import './App.css';
 import axios from 'axios';
 
 const App = ()  => {
+  console.log(process.env.REACT_APP_API_KEY)
 
   const [stories, setStories ] = useState([]);
 
