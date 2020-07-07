@@ -9,6 +9,10 @@ describe('App', () => {
 
   beforeEach(() => wrapper = shallow(<App />));
 
+  it('renders correctly', () => {
+    expect(wrapper).toMatchSnapshot();
+  });
+
   it ('renders an instance of the Main component', () => {
     expect(wrapper.find('Main').length).toEqual(1);
   })
