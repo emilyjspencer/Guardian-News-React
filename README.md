@@ -28,12 +28,14 @@ npm install
 npm start
 ```
 
-### What it looks like:
-
-
 
 ### Built with:
 
 * React
 * CSS
+
+### What it looks like:
+
+
+
 
