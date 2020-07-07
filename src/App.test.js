@@ -16,4 +16,8 @@ describe('App', () => {
   it ('renders an instance of the Main component', () => {
     expect(wrapper.find('Main').length).toEqual(1);
   })
+
+  it ('renders the banner image', () => {
+    expect(wrapper.find('img').length).toEqual(1);
+  });
 });
