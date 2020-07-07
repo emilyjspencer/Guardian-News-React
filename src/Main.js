@@ -5,14 +5,13 @@ import './App.css';
 
 
 const Main = ()  => {
-  console.log(process.env.REACT_APP_API_KEY)
   
 
   const [stories, setStories ] = useState([]);
 
   useEffect(() => {
    const key = process.env.REACT_APP_API_KEY;
-    axios.get(`https://content.guardianapis.com/search?api-key=key`)
+    axios.get(`https://content.guardianapis.com/search?api-key=${key}`)
       .then(result => {
         console.log(result)
         const newStories = result.data.response.results

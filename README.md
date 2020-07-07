@@ -5,7 +5,7 @@ For our Week 7 weekend challenge at Makers Academy, we were asked to create a si
 I have re-created this application using React.
 
 The ten most recent news stories are pulled in from the Guardian API as links and rendered on the page, with their title and date of publication.
-These links are clickable. Clicking on them takes the user to the new story on Guardian's website.
+These links are clickable. Clicking on them takes the user to the new story on the Guardian's website.
 
 ### How to run:
 
