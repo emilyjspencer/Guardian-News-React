@@ -32,10 +32,13 @@ const Main = ()  => {
       <ul>
         {stories.map(story => (
         <li key={story.id}>
+          <strong>{story.webTitle}</strong>
+          <br />
           <a href={story.webUrl}>{story.webUrl}</a>
           <br />
+          {new Date(story.webPublicationDate).toDateString()}
           <br />
-          {story.webPublicationDate}
+          <br />
         </li>
       
         ))}
