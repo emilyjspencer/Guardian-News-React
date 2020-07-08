@@ -1,5 +1,8 @@
 # Guardian News
 
+### Deployed with Surge at:
+[this link](http://sable-notebook.surge.sh/)!
+
 For our Week 7 weekend challenge at Makers Academy, we were asked to create a single page application, using vanilla JavaScript, the Guardian API and our own testing frameworks.
 
 I have re-created this application using React.
@@ -40,7 +43,7 @@ npm start
 ![guardiannews](guardian2.png)
 
 ### Deployed with Surge at:
-[click here](http://sable-notebook.surge.sh/)!
+[this link](http://sable-notebook.surge.sh/)!
 
 
 
