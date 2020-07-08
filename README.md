@@ -40,6 +40,7 @@ npm start
 ![guardiannews](guardian2.png)
 
 ### Deployed with Surge at:
-sable-notebook.surge.sh
+[click here](http://sable-notebook.surge.sh/)!
+
 
 
