@@ -38,7 +38,7 @@ npm start
 
 ### What it looks like:
 
-![guardianbanner](main.png)
+![guardianbanner](main2.png)
 ![guardiannews](links.png)
 
 ### Deployed with Surge at: [this link](http://sable-notebook.surge.sh/)!
