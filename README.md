@@ -1,6 +1,6 @@
 # Guardian News
 
-**Guardian News** is deployed with **Surge** at: [this link](http://sable-notebook.surge.sh/)!
+**Guardian News** is deployed with **Surge** at: [this link](http://wicked-expert.surge.sh)!
 
 For our Week 7 weekend challenge at Makers Academy, we were asked to create a single page application, using vanilla JavaScript, the Guardian API and our own testing frameworks.
 
@@ -41,7 +41,7 @@ npm start
 ![guardianbanner](main2.png)
 ![guardiannews](links.png)
 
-### Deployed with Surge at: [this link](http://sable-notebook.surge.sh/)!
+### Deployed with Surge at: [this link](http://wicked-expert.surge.sh)!
 
 
 
