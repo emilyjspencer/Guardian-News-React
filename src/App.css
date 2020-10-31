@@ -1,11 +1,82 @@
 body {
-  background-color: rgb(207, 213, 216);
+  background-color: rgb(184, 173, 173);
+  
+  opacity: 1.5;
+}
+
+.strip2 {
+  background-color: rgb(129, 126, 126);
+  height: 30px;
+  position: relative;
+  bottom: 20px;
+}
+
+
+.strip {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  bottom: 82px;
+  width: 95%;
+  background-color: rgb(181, 182, 182);
+  height: 170px;
+  border: solid rgb(131, 129, 129, 0.3) 10px;
+}
+
+.line {
+  background-color: rgb(173, 161, 161);
+  height: 70px;
+}
+
+.white {
+  height: 10px;
+  background-color: white;
+}
+
+.bottomstrip {
+  background-color: rgb(202, 201, 201);
+  height: 100px;
+}
+
+h2 {
+  position: relative;
+  bottom: 90px;
+  font-size: 30px;
+  color: gray;
+}
+
+.header {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  font-size: 80px;
+  color: rgb(105, 102, 102);
+  padding: 10px;
+  text-shadow: 2px 2px 5px rgb(168, 166, 166);
 }
 
 ul {
   text-align: center;
   list-style-position: inside;
   list-style-type: none;
+  position: relative;
+  bottom: 90px;
+}
+
+.first {
+  width: 640px;
+  height: 846px;
+}
+
+.london {
+  width: 100%;
+  height: 380px;
+  opacity: 0.5;
+}
+
+.second {
+  width: 640px;
+  height: 846px;
 }
 
 h1 {
@@ -14,6 +85,12 @@ h1 {
 
 h2 {
   color: rgb(83, 81, 81);
+}
+
+.london2 {
+  opacity: 0.4;
+  height: 380px;
+  width: 100%;
 }
 
 a:link {

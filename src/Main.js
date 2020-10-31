@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+import news10 from './news10.jpg';
+
 import './App.css';
 
 
@@ -27,15 +29,18 @@ const Main = ()  => {
       <br />
       <h2 align="center">The latest news stories</h2>
       <br />
-      <br />
       <ul>
         {stories.map(story => (
         <li key={story.id}>
           <strong>{story.webTitle}</strong>
           <br />
+          <br />
           <a href={story.webUrl}>{story.webUrl}</a>
           <br />
-          {new Date(story.webPublicationDate).toDateString()}
+          <br />
+          <strong>{new Date(story.webPublicationDate).toDateString()}</strong>
+          <br />
+          <br />
           <br />
           <br />
           <br />
