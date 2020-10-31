@@ -8,7 +8,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <img src={Guardian}></img>
+      <img src={Guardian} alt="custom banner"></img>
       <Main />
     </div>
   )

@@ -25,7 +25,7 @@ const Main = ()  => {
   return (
     <div className="App">
       <br />
-      <h1>The latest news</h1>
+      <h2 align="center">The latest news stories</h2>
       <br />
       <br />
       <ul>
@@ -36,6 +36,7 @@ const Main = ()  => {
           <a href={story.webUrl}>{story.webUrl}</a>
           <br />
           {new Date(story.webPublicationDate).toDateString()}
+          <br />
           <br />
           <br />
         </li>

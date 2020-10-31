@@ -36,8 +36,8 @@ npm start
 
 ### What it looks like:
 
-![guardianbanner](guardian1.png)
-![guardiannews](guardian2.png)
+![guardianbanner](main.png)
+![guardiannews](stories.png)
 
 ### Deployed with Surge at:
 sable-notebook.surge.sh
