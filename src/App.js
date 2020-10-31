@@ -23,7 +23,7 @@ const App = () => {
     </div>
       <Main />
       <div className="strip2">
-      <img className="london2" src={banner3} />
+      <div className="london2" />
       </div>
     </div>
   )

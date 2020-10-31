@@ -89,8 +89,9 @@ h2 {
 
 .london2 {
   opacity: 0.4;
-  height: 380px;
+  height: 200px;
   width: 100%;
+  background-color: rgb(160, 189, 189);
 }
 
 a:link {
